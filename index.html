@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" type="image/png" href="photo.png" />
+<link rel="stylesheet" href="style.css">
+<title>Image Slider</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="image fade">
+            <img src="/img/pexels-eberhardgross-691668.jpg" width="100%">
+        </div>
+        <div class="image fade">
+            <img src="/img/pexels-giorgio-de-angelis-482403-1413412.jpg" width="100%">
+        </div>
+        <div class="image fade">
+            <img src="/img/pexels-hakantahmaz-2536643.jpg" width="100%">
+        </div>
+        <div class="image fade">
+            <img src="/img/pexels-iriser-1707213.jpg" width="100%">
+        </div>
+        <div class="image fade">
+            <img src="/img/pexels-pixabay-459203.jpg" width="100%">
+        </div>
+        <div class="image fade">
+            <img src="/img/pexels-ktfoto-1271380.jpg" width="100%">
+        </div>
+        <div class="image fade">
+            <img src="/img/pexels-vladalex94-1402787.jpg" width="100%">
+        </div>
+        <div class="image fade">
+            <img src="/img/pexels-pok-rie-33563-2049422.jpg" width="100%">
+        </div>
+
+        <i id="prev" onclick="show_image(-1)" class="fas fa-chevron-left"></i>
+        <i id="next" onclick="show_image(1)" class="fas fa-chevron-right"></i>
+        
+        <div class="dots">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
